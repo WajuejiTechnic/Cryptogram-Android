@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/create_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Player" />
+
+        <Button
+            android:id="@+id/create_cryptogram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Cryptogram" />
+
+        <Button
+            android:id="@+id/admin_statistics_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Statistics" />
+
+        <Button
+            android:id="@+id/log_out"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Log Out" />
+    </LinearLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

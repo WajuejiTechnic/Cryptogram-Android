@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Crypto6300</string>
+    <string name="action_settings">Settings</string>
+    <string name="player_view">Player View</string>
+    <string name="solve_cry">Solve Cryptograms</string>
+    <string name="view_stats">View Statistics</string>
+    <string name="wrong_solution">Solution Incorrect: Please Try Again!</string>
+    <string name="attempts_limit">Number of Attempts Exceeded: Please Go Back and Select a Different Cryptogram!</string>
+</resources>

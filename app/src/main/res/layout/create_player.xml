@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height = "match_parent">
+
+<TextView android:text = "Create Player" android:layout_width="wrap_content"
+    android:layout_height = "wrap_content"
+    android:id = "@+id/create_payer_label"
+    android:textSize = "35dp"
+    android:layout_alignParentTop = "true"
+    android:layout_centerHorizontal = "true"
+    android:layout_marginTop="50dp"/>
+
+
+<EditText
+    android:id="@+id/username"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/create_payer_label"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginStart="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="70dp"
+    android:layout_marginEnd="0dp"
+    android:layout_marginRight="0dp"
+    android:focusable="true"
+    android:hint="Enter unique user Name"
+    android:maxLength="10"
+    android:textColorHighlight="#696969"
+    android:textColorHint="#696969" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:focusable="true"
+        android:hint="Enter password"
+        android:textColorHighlight="#696969"
+        android:textColorHint="#696969" />
+
+    <EditText
+        android:id="@+id/fistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_alignEnd="@+id/username"
+        android:layout_alignRight="@+id/username"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:ems="10"
+        android:hint="first Name"
+        android:maxLength="10"
+        android:textColorHint="#696969" />
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:id="@+id/lastName"
+    android:layout_below="@+id/fistName"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignRight="@+id/fistName"
+    android:layout_alignEnd="@+id/fistName"
+    android:maxLength="10"
+    android:textColorHint="#696969"
+    android:hint="last Name" />
+
+    <EditText
+        android:id="@+id/difficulty_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastName"
+        android:layout_alignEnd="@+id/lastName"
+        android:layout_alignRight="@+id/lastName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint='Difficulty level(input "easy", "normal" or "hard")'
+        android:textColorHint="#696969" />
+
+    <Button
+        android:id="@+id/create_player_bt"
+        android:layout_width="149dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="434dp"
+        android:layout_marginEnd="133dp"
+        android:text="Create Player" />
+
+    <Button
+        android:id="@+id/Cancel_button"
+        android:layout_width="149dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="517dp"
+        android:layout_marginEnd="133dp"
+        android:text="Cancel" />
+
+
+</RelativeLayout>
+
+
+
